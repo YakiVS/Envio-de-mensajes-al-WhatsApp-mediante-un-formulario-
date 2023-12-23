@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Formulario_ITEC</title>
+</head>
+
+<body class="fondo">
+    <fieldset class="conjunto">
+        <h1 class="titulo"><center><img class="imagen" src="./img/logoItec.png" alt="" width="220" height="110"></center></h1>        
+        <div class="codigoPais">
+            <select class="selctCodigo" onchange="seleccodigo(this.value)">
+                <option>+52</option>
+                <option>+51</option>
+                <option>+501</option>
+                <option>+502</option>
+                <option>+503</option>
+                <option>+504</option>
+                <option>+505</option>
+                <option>+506</option>
+                <option>+507</option>
+                <option>+54</option>
+                <option>+55</option>
+                <option>+56</option>
+                <option>+57</option>
+                <option>+591</option>
+                <option>+58</option>
+                <option>+593</option>
+                <option>+595</option>
+                <option>+598</option>
+                <option>+1809</option>
+            </select>
+        </div>
+
+        <div class="caja">
+            <input class="digNumero"  type="text" name="" id="numero" placeholder="Ingrese su número" autocomplete="off">
+        </div>
+        <div class="caja">
+            <textarea class="digMensaje" name="" id="mensaje" cols="30" rows="10" placeholder="Escriba su mensaje"></textarea>
+        </div>
+
+        <div class="mensajes">
+            <select class="selctMensaje" name="" id="msm" onchange="seleccionarMensaje(this.value)">
+                <option></option>
+                <option>                 
+                    <p>
+                        Hola%20te%20saluda%20*RAQUEL*%20de%20la%20*OFICINA*%20*DE*%20*CERTIFICACI%C3%93N*%20%20de%20la%20instituci%C3%B3n%20*EL*%20*TECNOL%C3%93GICO*%2C%20felicidades%20aprobaste%20el%20curso%20de%20*WORD*%20*BASICO*%20%20puedes%20tramitar%20tu%20certificado%20el%20costo%20es%2030%20soles%2C%20recuerda%20es%20opcional.%20%F0%9F%A4%97%F0%9F%91%A9%E2%80%8D%F0%9F%92%BB%F0%9F%8E%93%0A%0A%F0%9F%91%A9%E2%80%8D%F0%9F%8E%93%20*RECUERDA*%20*UN*%20*CERTIFICADO*%20*AVALA*%20*TUS*%20*CONOCIMIENTOS*%20%20%0A%0ASi%20tienes%20inconveniente%20con%20el%20tramite%20nos%20comunica%20%2C%20estaremos%20atentos%20%F0%9F%A4%97
+                    </p>                   
+                </option>
+                <option>
+                    <p>
+                        %F0%9F%98%8AHola%20%F0%9F%99%8B%E2%80%8D%E2%99%80%E2%80%8D%20te%20saludamos%20de%20la%20*OFICINA*%20*DE*%20*CERTIFICACI%C3%93N*%20de%20la%20Instituci%C3%B3n%20*EL%20TECNOL%C3%93GICO*%20%2C%20gracias%20por%20confiar%20en%20nosotros%20y%20que%20*DIOS*%20te%20bendiga.%0A%F0%9F%A4%97te%20env%C3%ADo%20tu%20certificado%20escaneado%20de%20*FRANC%C3%89S%20NIVEL%20B%C3%81SICO*%20*-*%20*A1*%0A%0A%F0%9F%8E%81%20*REGALO*%0A*CAMPUS*%20*VIRTUAL*%20%3A%20%F0%9F%91%87%20Estar%C3%A1%20habilitado%20en%202%20d%C3%ADas%2C%20en%20caso%20que%20no%20te%20permita%20ingresar%20no%20dude%20en%20escribirnos.%0AUsuario%3A%20*DNI*%0AContrase%C3%B1a%3A%20tecnologico%0A%0A%20*PRESIONA*%20*EN*%20*EL*%20*ENLACE%20PARA%20INICIAR%20SESI%C3%93N*%20%20%F0%9F%91%87%0Ahttps%3A%2F%2Fwww.eltecnologico.com.pe%2Faulavirtual%2F%0A%0AVideo%20como%20ingresar%20%20%20%F0%9F%91%87%0Ahttps%3A%2F%2Fyoutu.be%2FjY1Y7bOgN-I%0A%0ATe%20invitamos%20a%20unirte%20a%20nuestro%20grupo%20exclusivo%20de%20*TELEGRAM*%20%20%F0%9F%98%8A%20%F0%9F%91%87%20compartiremos%20nuevos%20cursos%20y%20videos%20que%20usted%20solicite%F0%9F%98%8A%20%F0%9F%91%87%0A%0Ahttps%3A%2F%2Ft.me%2F%2BgcO5vwrHzeNiNzIx 
+                    </p>                   
+                </option>
+                <option>
+                    <p>
+                        Hola%2C%20te%20saludamos%20del%20*TECNOL%C3%93GICO*%2C%20que%20tengas%20un%20bendecido%20d%C3%ADa%2C%20%20recuerda%20que%20estaremos%20para%20ti%20%F0%9F%98%8A%F0%9F%92%99%0A%0A%C2%BFTienes%20alguna%20consulta%20para%20nosotros%3F
+                    </p>  
+                </option>               
+            </select>
+        </div>
+
+        <div class="caja">
+            <button class="btnEnviar" id="enviar"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-whatsapp" width="48" height="48" viewBox="0 0 24 24" stroke-width="2.5" stroke="#00b341" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M3 21l1.65 -3.8a9 9 0 1 1 3.4 2.9l-5.05 .9" />
+                <path d="M9 10a0.5 .5 0 0 0 1 0v-1a0.5 .5 0 0 0 -1 0v1a5 5 0 0 0 5 5h1a0.5 .5 0 0 0 0 -1h-1a0.5 .5 0 0 0 0 1" />
+              </svg></button>
+        </div>
+    </fieldset>
+</body>
+<script src="script.js"></script>
+
+</html>

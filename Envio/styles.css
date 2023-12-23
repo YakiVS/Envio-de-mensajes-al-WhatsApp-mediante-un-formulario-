@@ -1,0 +1,79 @@
+.fondo{
+    background-color: rgb(23, 132, 204);  
+}
+
+.imagen{
+    text-align: center;
+    display: block;
+}
+
+.conjunto{
+    width: 40rem;
+    height: 35rem;
+    margin: auto;
+    margin-top: 5rem;
+    background-color: white;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    box-shadow: 1px -1px 17px 0px rgba(0, 0, 0, 0.75);
+    background-color: #ffffff;
+}
+.digNumero{
+    text-align: center;
+    display: block;
+    width: 400px;
+    height: 30px;
+    margin: 200px;
+    margin-top: 15px;
+    margin-bottom: 15px;   
+    
+}
+.digMensaje{
+    resize: none;
+    width: 400px;
+    margin: 200px;
+    margin-top: 5px;
+    margin-bottom: 15px; 
+}
+.btnEnviar{
+    margin-left: 21rem;
+    background-color:#ffffff;
+    border: 0px;
+    padding: 10px 40px;
+    color: white;
+    font-size: 1rem;
+    outline: none;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.selctCodigo{
+    width: 80px;
+    height: 30px;
+    text-align: center;
+}
+
+.codigoPais{
+    text-align: center;
+}
+
+.selctMensaje{
+    width: 406px;
+    height: 34px;
+    margin: 200px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    margin-right: 190px;
+    margin-left: 188px;
+}
+
+.mensajes{
+    text-align: center;
+}
+
